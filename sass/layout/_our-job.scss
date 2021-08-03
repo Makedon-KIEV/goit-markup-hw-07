@@ -1,0 +1,56 @@
+.section-what-we-do {
+    padding-top: 0;
+  }
+  
+  .whatwedo .team-list {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+  }
+  .whatwedo {
+    font-family: var(--font-family);
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .container-whatwedo {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .whatwedo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: calc(-1 * var(--margin));
+    margin-left: calc(-1 * var(--margin));
+  }
+  .whatwedo-img {
+    flex-basis: calc((100% - 3 * var(--margin)) / 3);
+    margin-top: 50px;
+    margin-left: var(--margin);
+  }
+  .whatwedo-box {
+    position: relative;
+  }
+  .activity-list-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    height: 70px;
+    padding: 27px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--back-color);
+    background-color: var(--job-img-overlay-bg-color);
+  }

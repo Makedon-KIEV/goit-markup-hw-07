@@ -1,0 +1,29 @@
+.hero {
+    background-color: var(--hero-footer);
+    color: var(--back-color);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  .overlay {
+    height: 600px;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(var(--background-hero), var(--background-hero)),
+      url('../img/hero/Img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .hero-face {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--back-color);
+    margin-bottom: 30px;
+  }
+  
