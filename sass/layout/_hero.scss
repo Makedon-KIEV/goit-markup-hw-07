@@ -26,4 +26,33 @@
     color: var(--back-color);
     margin-bottom: 30px;
   }
+  .modal-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
   
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+  
+    cursor: pointer;
+    color: var(--back-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px var(--shadow-hero-button);
+    border-radius: 4px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+  
+    transition: background-color 1000ms var(--cubic), box-shadow 250ms var(--cubic);
+  }
+  
+  .modal-btn:hover,
+  .modal-btn:focus {
+    background-color: var(--hero-button-hover-color);
+    box-shadow: var(--shadow-hero-button);
+  }
