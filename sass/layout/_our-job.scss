@@ -1,4 +1,4 @@
-.section-what-we-do {
+.section__what-we-do {
     padding-top: 0;
   }
   
@@ -16,7 +16,7 @@
     text-align: center;
     margin-bottom: 50px;
   }
-  .container-whatwedo {
+  .container_whatwedo {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -24,7 +24,7 @@
     margin-right: auto;
   }
   
-  .whatwedo-list {
+  .whatwedo_list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -36,7 +36,7 @@
     margin-top: 50px;
     margin-left: var(--margin);
   }
-  .whatwedo-box {
+  .whatwedo_box {
     position: relative;
   }
   .activity-list-label {

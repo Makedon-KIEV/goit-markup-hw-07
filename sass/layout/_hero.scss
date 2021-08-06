@@ -17,7 +17,7 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-  .hero-face {
+  .hero__face {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -26,7 +26,7 @@
     color: var(--back-color);
     margin-bottom: 30px;
   }
-  .modal-btn {
+  .modal__btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -51,8 +51,8 @@
     transition: background-color 1000ms var(--cubic), box-shadow 250ms var(--cubic);
   }
   
-  .modal-btn:hover,
-  .modal-btn:focus {
+  .modal__btn:hover,
+  .modal__btn:focus {
     background-color: var(--hero-button-hover-color);
     box-shadow: var(--shadow-hero-button);
   }
